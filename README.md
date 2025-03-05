@@ -18,7 +18,6 @@ As a **data specialist** at Salifort Motors, I was provided with the results of 
 - **Department**
 - **Number of projects**
 - **Average monthly hours**
-- And other relevant data points I identified.
 
 ---
 
@@ -39,12 +38,14 @@ Containing a mix of **numeric variables** and **two categorical ones**.
 ### **Modeling and Evaluation**
 For this project, I chose to use a **random forest model** instead of a **logistic regression** or **decision tree**. Random forest models (and **XGBoost**) tend to offer greater accuracy by capturing complex patterns and reducing overfitting. I performed an **80/20 train/test split**.
 
-#### **Metrics:**
+#### **Metrics (Including Confusion Matrix):**
 - **Accuracy**: 0.9712
 - **Precision**: 0.9439
 - **Recall**: 0.8803
 - **F1 Score**: 0.9110
 - **AUC**: 0.9666
+
+![Confusion Matrix](https://github.com/user-attachments/assets/c5b2b341-5ea4-4bb6-a712-4740ca3ee10e)
 
 #### **Feature Importance:**
 The most important features contributing to the model's performance were as follows:
@@ -54,6 +55,8 @@ The most important features contributing to the model's performance were as foll
 - **last_evaluation**: 0.190324
 - **salary**: 0.018632
 - **work_accident**: 0.011036
+  
+![Feature Chart](https://github.com/user-attachments/assets/25789879-95a0-469e-bc07-a98925d0a5e8)
 
 #### **Analysis:**
 The model performed well across all metrics, with the lowest being recall. Specifically, the model:
