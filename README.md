@@ -45,7 +45,7 @@ For this project, I chose to use a **random forest model** instead of a **logist
 - **F1 Score**: 0.9110
 - **AUC**: 0.9666
 
-![Confusion Matrix](https://github.com/user-attachments/assets/c5b2b341-5ea4-4bb6-a712-4740ca3ee10e)
+<img src="https://github.com/user-attachments/assets/c5b2b341-5ea4-4bb6-a712-4740ca3ee10e" width="500"/>
 
 #### **Feature Importance:**
 The most important features contributing to the model's performance were as follows:
@@ -56,7 +56,7 @@ The most important features contributing to the model's performance were as foll
 - **salary**: 0.018632
 - **work_accident**: 0.011036
   
-![Feature Chart](https://github.com/user-attachments/assets/25789879-95a0-469e-bc07-a98925d0a5e8)
+<img src="https://github.com/user-attachments/assets/25789879-95a0-469e-bc07-a98925d0a5e8" width="600"/>
 
 #### **Analysis:**
 The model performed well across all metrics, with the lowest being recall. Specifically, the model:
